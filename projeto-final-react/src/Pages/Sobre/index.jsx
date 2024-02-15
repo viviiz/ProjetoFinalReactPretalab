@@ -1,5 +1,5 @@
 import styles  from "./sobre.module.css";
-import fotoPerfil from "../../assets/icone.jpeg"
+import fotoPerfil from "../../assets/vitoooria.jpeg"
 const Sobre = () => {
     return (
       <>
@@ -15,13 +15,10 @@ const Sobre = () => {
         </div>
   
         <div className={styles.containerSobre} >
-            <h1 className={styles.nomeCompleto}>Amanda Silva</h1>
-            <h2 className={styles.profissao}>Desenvolvedora Front-End</h2>
+            <h1 className={styles.nomeCompleto}>Vitória Neves</h1>
+            <h2 className={styles.profissao}>Estudante em transição de carreira e futura deva</h2>
             <p className={styles.sobreMim}>
-                Mussum Ipsum, cacilds
-                vidis litro abertis. Suco de cevadiss deixa as pessoas mais interessantis. 
-              Paisis, filhis, espiritis santis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. 
-              Nam vulputate dapibus. Detraxit consequat et quo num tendi nada.
+               Oiê, tudo bem com você? Eu me chamo Vitória e tenho 29 anos de idade, estou em transição e construção de carreira para a TI. Desejo me tornar uma especialista na área e poder ajudar as pessoas que queiram aprender e entrar na TI assim como a Pretalab e minhas colegas me ajudaram. 
           </p>
       </div>
       </>

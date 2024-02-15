@@ -3,6 +3,7 @@ import Banner from "./componentes/Banner"
 import Footer from "./componentes/Footer"
 import Menu from "./componentes/Menu"
 import Sobre from "./Pages/Sobre"
+//import Comentarios from "./Pages/Comentarios"
 
 
 function App() {
@@ -16,8 +17,7 @@ function App() {
         <Route path="/sobre" element={<Sobre/>}/>
       </Routes>
       <Footer/>  
-
-   </div>
+    </div>
 
   )
 
