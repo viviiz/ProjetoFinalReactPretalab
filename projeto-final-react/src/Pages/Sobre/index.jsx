@@ -6,7 +6,6 @@ const Sobre = () => {
         <div className={styles.header}>
           <h1>
             Escreva sobre você!!!
-
           </h1>
           <img src={fotoPerfil} alt="Foto do perfil"/>
           <div>
