@@ -3,7 +3,9 @@ import Banner from "./componentes/Banner"
 import Footer from "./componentes/Footer"
 import Menu from "./componentes/Menu"
 import Sobre from "./Pages/Sobre"
-//import Comentarios from "./Pages/Comentarios"
+import Inicio from "./Pages/Inicio"
+import Contato from "./Pages/Contatos"
+import Comentarios from "./Pages/Comentarios"
 
 
 function App() {
@@ -14,7 +16,10 @@ function App() {
       <Menu/>
       <Banner/>
       <Routes>
+        <Route path="/" element={<Inicio/>}/>
         <Route path="/sobre" element={<Sobre/>}/>
+        <Route path="/contato" element={<Contato/>}/>
+        <Route path="/comentario" element={<Comentarios/>}/>
       </Routes>
       <Footer/>  
     </div>

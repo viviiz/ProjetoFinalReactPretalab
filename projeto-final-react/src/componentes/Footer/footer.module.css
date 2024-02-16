@@ -1,3 +1,29 @@
 .footer {
-    background-color: #fff8;
+    background-color:transparent;
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+.ul{
+    text-decoration: none;
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+    margin: 0; /* Remove as margens padrão da lista */
+}
+
+.li{
+    text-decoration: none;
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.p{
+    text-align:center ;
+    gap: 25px;
+    font-style: oblique;
+    display: inline-flex;
+
 }

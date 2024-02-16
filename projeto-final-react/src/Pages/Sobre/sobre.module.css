@@ -1,5 +1,4 @@
-*{
-    background-color: #f3d7db;
+
     .header {
         text-align: center;
         color: var(--text-color);
@@ -130,4 +129,3 @@
           flex-direction: column;
         }
       }
-}

@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import contatoImg from '../../assets/contato.svg'
+import contatoImg from '../../assets/contatoImg.svg'
 
-import styles from './Contato.module.css'
+import styles from './contato.module.css'
 
 function Contato() {
   const [mensagem, setMensagem] = useState('')

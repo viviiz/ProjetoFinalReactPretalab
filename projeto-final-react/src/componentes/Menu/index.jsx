@@ -17,18 +17,12 @@ const Menu = () =>{
                 </li>
 
                 <li>
-                    <Link className={styles.itemMenu} to="">
-                        Objetivos
-                    </Link>
-                </li>
-
-                <li>
-                    <Link className={styles.itemMenu} to="">
+                    <Link className={styles.itemMenu} to="/contato">
                         Contato
                     </Link>
                 </li>
                 <li>
-                    <Link className={styles.itemMenu} to="">
+                    <Link className={styles.itemMenu} to="/comentario">
                         Comentarios
                     </Link>
                 </li>
